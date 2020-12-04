@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap%27');
+.flex-container{ 
+    background: #3caadd; 
+    padding: 40px 60px;
+    margin-top: 2%;
+    width: 40%; 
+    display: flex; 
+    margin-left: 100px; 
+    border-radius: 20px;
+}
+.flex-container .container .button{
+    background: #ffffff;
+}
