@@ -15,7 +15,7 @@ const Form = () => {
     }
     return(
         <form onSubmit = {handleSubmit(onSubmit)}>
-            <input className="form-control" ref={register} type="text" name="input"/>
+            <input className="form-control" ref={register} type="text" name="input" placeholder=" 1 Milla equivale a 1.60934 Km"/>
             <button className="btn btn-primary mt-2">Convertir</button>
         </form>
     )

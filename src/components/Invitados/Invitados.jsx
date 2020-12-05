@@ -16,10 +16,11 @@ const Invitados = () => {
     }
     return (
         <div className="flex-container">
-            <div className="container">
-                <h1>This is a tarea2</h1>
+            <div className="container-f">
+                <h1>Invitados a Mi fiesta</h1>
+                <h3>Ingrese los nombres de quienes desea invitar a la fiesta:</h3>
                 <form onSubmit = {handleSubmit(procesamientodeformulario)}>
-                    <input name="nombre" ref={register} type="text" placeholder="Ingresar invitados"/>
+                    <input name="nombre" ref={register} type="text" placeholder="Nombre de los invitados"/>
                     <button>Agregar invitado</button>
                 </form>
                 <ul>

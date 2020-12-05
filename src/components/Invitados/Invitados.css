@@ -8,6 +8,12 @@
     margin-left: 100px; 
     border-radius: 20px;
 }
-.flex-container .container .button{
-    background: #ffffff;
+ .container-f form button{
+    background: #0dcc3d;
+    border-radius: 8px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.container-f form button:hover{
+    background: #0a962d;
 }
