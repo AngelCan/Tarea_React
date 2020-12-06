@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from '@reach/router'
 
+//Usamos Link, una propiedad de react router que nos permite enviar a otra pantalla con una direccion
 class Navbar extends React.Component{
     render(){
         return(

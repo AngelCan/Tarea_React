@@ -1,5 +1,10 @@
 import React from 'react'
-
+/*  
+    Fecha: 5 de Diciembre del 2020
+    Autor: Angel de Jesus Can Pech
+    E-mail: LE17081413@merida.tecnm.mx
+    Personal e-mail: angelcan58@gmail.com
+ */
 
 class Home extends React.Component{
     render(){

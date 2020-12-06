@@ -3,9 +3,11 @@ import {useForm} from 'react-hook-form'
 import './Invitados.css'
 
 const Invitados = () => {
+    //Creamos register y handleSubmit
     const {register, handleSubmit} = useForm()
-
+    //Creamos un arreglo donde guardar los inputs
     const [inputs, setInput] = useState([])
+    //Enviamos los datos si re realiza un evento, el cual es el boton y posteriormente limpiamos el Input
     const procesamientodeformulario = (datos, e) => {
         console.log(datos)
         setInput([
@@ -25,6 +27,7 @@ const Invitados = () => {
                 </form>
                 <ul>
                     {
+                        //Tomamos el nombre - Input, y lo enviamos a la li
                         inputs.map((person, index)=> <li key = {index}> {person.nombre} </li>)
                     }
 
